@@ -31,6 +31,7 @@ body {
 #form {
     background-color: crimson;
     width: 80%;
+    width: 60%;
     margin: 24px auto;
     color: white;
     padding: 24px 0;
@@ -71,14 +72,20 @@ input[type="button"] {
     background-color: black;
     display: inline-block;
     font-size: 24px;
+    font-size: 20px;
     font-family: 新細明體;
     color: rgb(255, 255, 238);
+    color: rgb(141, 162, 255);
     padding: 6px 24px;
     border-radius: 8px;
 }
 
 @media screen and (max-width:768px) {
-    #container {
+    #form {
         width: 100%;
+    }
+
+    #result-text {
+        font-size: 16px;
     }
 }
